@@ -1,0 +1,59 @@
+
+body {
+    background-color: gray;
+    font-family: sans-serif;
+}
+#container {
+    height: 385px;
+    width:  400px;
+    border: 1px solid #fcdfc6dc;
+    background-color: rgb(207, 196, 196);
+}
+
+
+
+
+#input {
+    position: relative;
+    background-color: white;
+    width: 320px;
+    height: 35px;
+    border: 1px solid #ddd;
+    text-align: right;
+    left: 40px;
+    top: 10px;
+    padding-top: 15px;
+    padding-right: 5px;
+    font-size: large;
+}
+
+
+.buttons {
+text-align: center;
+}
+
+
+#numbers {
+    text-align: left;
+    padding-left: 15px;
+}
+
+#equals {
+    position: relative;
+    padding-right: 15px;
+    left: 297px;
+    bottom: 239px;
+}
+
+#equals button {
+    height: 231px;
+}
+
+button {
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    font-size: large;
+    font-weight: 700;
+}
